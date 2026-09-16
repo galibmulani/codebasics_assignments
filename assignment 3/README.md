@@ -1,7 +1,4 @@
-STAR Method:
-
 ## codebasics assignment 3
-[situation]
 Mr. Hathodawala has loan offers from three banks and he has assigned this task to me to give him key insights which offer should he choose
 
 Here I created the loan summary which provides following insights
@@ -10,7 +7,6 @@ Here I created the loan summary which provides following insights
 
 ![loan summary](loan_summary.png)
 
-[result]
 Brief Summary:
 
 - Left join bank has the highest interest rate (15%), but because the loan repayment is 5 years, the total interest is lowest 6.41 Lakh rupees.
@@ -31,7 +27,7 @@ Brief Summary:
 
 - A higher interest rate with a shorter tenure can result in lower total interest, but it requires a monthly EMI.
 
-# As per Mr. Hathodawla monthly budget for loan repayment is ₹25000.
+#### As per Mr. Hathodawla monthly budget for loan repayment is ₹25000.
 
 Left Join Bank: EMI exceeds the budget, so the 5-year repayment plan doesn't fit the ₹25,000 monthly limit.
 

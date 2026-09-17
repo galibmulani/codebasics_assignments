@@ -34,33 +34,34 @@ Created a new Excel workbook and imported both CSV files using:
 **Data → From Text/CSV**
 
 The files were then opened in **Power Query Editor** for cleaning and transformation.
-![Data Import](pq_import_textorcsv.png)
+![Data Import](./screenshots/pq_import_textorcsv.png)
+
 ### 2. Change `property_id` Data Type
 
 Changed the data type of the `property_id` column from its original format to **Text**.
 
 This ensures that property IDs are treated as identifiers rather than numerical values.
-![change property type](pq_property_id_change_data_type.png)
+![change property type](./screenshots/pq_property_id_change_data_type.png)
 
 ### 3. Standardize `property_name`
 
 Some values in the `property_name` column were written as:
 
 `Atliq bay`
-![atliq_bay](pq_without_atliq_bay.png)
+![atliq_bay](./screenshots/pq_without_atliq_bay.png)
 These were replaced with:
 
 `Atliq Bay`
 
 This standardized the property name.
-![atliq Bay](pq_change_atliq_bay.png)
+![atliq Bay](./screenshots/pq_change_atliq_bay.png)
 
 ### 4. Remove Extra Spaces from `property_type`
 
 Cleaned the `property_type` column by removing unnecessary leading and trailing spaces.
 
 This helps maintain consistent text values during analysis.
-![trimmed property type](pq_trimmed_property_type.png) 
+![trimmed property type](./screenshots/pq_trimmed_property_type.png) 
 ### 5. Split `city|city_code`
 
 The `city|city_code` column contained two pieces of information separated by the `|` delimiter.
@@ -70,18 +71,18 @@ Example:
 `Mumbai|MUM`
 
 The column was split using the `|` delimiter into two separate columns:
-![split_by_delimiter](pq_split_by_delimiter.png)
+![split_by_delimiter](./screenshots/pq_split_by_delimiter.png)
 * `city`
 * `city_code`
 
 The resulting columns were renamed accordingly.
-![renamed_cityidname](pq_renamed_city_id_city_name.png)
+![renamed_cityidname](./screenshots/pq_renamed_city_id_city_name.png)
 ### 6. Create `Availability Status`
 
 Created a conditional column named:
 
 `Availability Status`
-![conditional column](pq_conditional_column.png)
+![conditional column](./screenshots/pq_conditional_column.png)
 The logic was:
 
 ```text
@@ -109,7 +110,7 @@ successful_bookings / capacity
 The resulting column was then converted to **Percentage** data type.
 
 This represents the occupancy percentage.
-![custom_column](pq_custom_column.png)
+![custom_column](./screenshots/pq_custom_column.png)
 
 ### 8. Merge `bookings_data` and `rooms_data`
 
@@ -121,18 +122,18 @@ The `room_class` column from `rooms_data` was added to `bookings_data`.
 
 The columns were then reordered so that `room_class` appears next to `room_id`.
 
-![merge data](pq_merge.png)
+![merge data](./screenshots/pq_merge.png)
 
 expand room class
 
-![expand column](pq_expand_column.png)
+![expand column](./screenshots/pq_expand_column.png)
 ### 9. Extract Month Name
 
 Extracted the **month name** from the `date` column.
 
 This creates a useful time-based field that can later be used for monthly analysis and reporting.
 
-![extract month name](pq_month_name.png)
+![extract month name](./screenshots/pq_month_name.png)
 ## 💡 Key Learning
 
 Through this project, I practiced how Power Query can be used to:

@@ -11,4 +11,4 @@ These repo contains all solution to my assignment
 
 ## 🏨 Codebasics Resume Project Challenge — Hospitality Analytics
 
-[View Assignment →]()
+[View Assignment →](https://github.com/galibmulani/codebasics_assignments/tree/main/assignment%205)

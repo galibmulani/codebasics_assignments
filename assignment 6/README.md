@@ -1,10 +1,10 @@
-# Project Priority Matrix
+# Project Priority Matrix — Excel Assignment
 
-## Project Overview
+## Assignment Overview
 
 When a Project Manager is handling multiple projects at the same time, deciding which project to work on first can become challenging.
 
-This project presents a simple **Project Priority Matrix** designed around a business scenario at **AtliQ**, where Wanda, a Project Manager, is managing multiple projects and needs a structured way to compare them.
+As part of a **Codebasics assignment**, I worked on a **Project Priority Matrix** based on a business scenario at **AtliQ**, where Wanda, a Project Manager, is managing multiple projects and needs a structured way to compare them.
 
 The matrix evaluates projects based on three key dimensions:
 
@@ -12,7 +12,7 @@ The matrix evaluates projects based on three key dimensions:
 * **Impact** — How much potential business value the project can create.
 * **Size** — The relative scale of the project based on resources, cost, time, or effort required.
 
-The objective is not to automatically select a project, but to provide a visual framework that can support project prioritization and discussion.
+The objective of this assignment was to create a visual framework that can support project prioritization and discussion.
 
 ---
 
@@ -27,13 +27,13 @@ Without a structured comparison, it can be difficult to understand:
 * Which projects may require significant resources?
 * Which projects should be evaluated more carefully?
 
-To address this, I created a **Project Priority Matrix using a Bubble Chart**.
+To address this, I created a **Project Priority Matrix using a Bubble Chart in Excel**.
 
 ---
 
-## Project Objective
+## Assignment Objective
 
-The objective was to create an interactive and easy-to-understand visualization that allows project teams to compare projects using:
+The objective was to create an easy-to-understand visualization that allows project teams to compare projects using:
 
 **Feasibility + Impact + Project Size**
 
@@ -74,7 +74,7 @@ The matrix uses three dimensions:
 
 Projects in the **upper-right area** have both high potential impact and high feasibility.
 
-These projects can be considered strong candidates for further evaluation and prioritization.
+These projects can be considered for further evaluation and prioritization.
 
 ### 2. High Impact + Low Feasibility
 
@@ -114,7 +114,7 @@ A larger bubble does not automatically mean higher priority. It simply indicates
 
 ## Data Preparation
 
-The project uses a manually maintained input table containing project-level information.
+The assignment uses a manually maintained input table containing project-level information.
 
 Example:
 
@@ -126,37 +126,41 @@ Example:
 | Project D |           3 |      4 |   10 |
 | Project E |           7 |      8 |    4 |
 
-The values can be updated as new information becomes available.
-
-This makes the matrix flexible for project teams because they can change the input values and update the visualization.
+The input values can be updated as new information becomes available, allowing the visualization to reflect changes in project evaluation.
 
 ---
 
-### Key Insights
+## Key Insights
 
 The Project Priority Matrix provides a visual comparison of the projects based on feasibility, impact, and project size.
 
-Some observations from the analysis:
+Some observations from the assignment:
 
-- **Project WK** has high feasibility (8), high impact (7), and the smallest project size (1), placing it in the high-feasibility/high-impact area with relatively low project size.
-- **Spacer** has high feasibility (7) and high impact (8), but it also has the largest project size (10), indicating a potentially high-value project that may require significant resources.
-- **Project 10D** has relatively high feasibility (6) and impact (7), with a smaller project size of 3.
-- **Project 777** has high impact (7) but low feasibility (2), indicating that implementation may be more challenging despite its potential impact.
-- **DB Integration** has low feasibility (2), moderate impact (6), and a relatively large size (7).
-- **Project Moa** has the highest feasibility (9) but comparatively lower impact (4).
+* **Project WK** has high feasibility (8), high impact (7), and the smallest project size (1), placing it in the high-feasibility/high-impact area with relatively low project size.
+
+* **Spacer** has high feasibility (7) and high impact (8), but it also has the largest project size (10), indicating a potentially high-value project that may require significant resources.
+
+* **Project 10D** has relatively high feasibility (6) and impact (7), with a smaller project size of 3.
+
+* **Project 777** has high impact (7) but low feasibility (2), indicating that implementation may be more challenging despite its potential impact.
+
+* **DB Integration** has low feasibility (2), moderate impact (6), and a relatively large size (7).
+
+* **Project Moa** has the highest feasibility (9) but comparatively lower impact (4).
 
 The matrix helps provide a structured view of these trade-offs rather than looking at each project independently.
+
 ---
 
 ## Business Value
 
-The main purpose of this matrix is to support **structured project discussions**.
+The main purpose of this assignment is to demonstrate how data visualization can support **structured project discussions**.
 
 Instead of looking at projects individually, a Project Manager can view the entire project portfolio in one place and discuss:
 
-**"Which projects provide the greatest potential value relative to their feasibility and required resources?"**
+> **"Which projects provide the greatest potential value relative to their feasibility and required resources?"**
 
-The matrix acts as a decision-support tool rather than making the final decision automatically.
+The matrix acts as a **decision-support tool** rather than making the final decision automatically.
 
 ---
 
@@ -172,7 +176,7 @@ The matrix acts as a decision-support tool rather than making the final decision
 
 ---
 
-## Project Workflow
+## Assignment Workflow
 
 ```text
 Project Information
@@ -192,18 +196,25 @@ Business Insights
 
 ---
 
-## Project Screenshot:
-
+## Assignment Screenshot
 
 ![Project Priority Matrix](./screenshot/project_priority_matrix_png.PNG)
 
+---
+
 ## Key Learning
 
-This project helped me understand that data visualization is not only about creating charts.
+This assignment helped me understand that data visualization is not only about creating charts.
 
 A useful visualization should help answer a **business question**.
 
 In this case, the Bubble Chart combines three different project dimensions into a single visual that can help a Project Manager compare projects and have a more structured discussion around prioritization.
+
+---
+
+## Assignment Source
+
+This assignment was provided as part of the **Codebasics learning program** and was designed around a practical business scenario at AtliQ.
 
 ---
 

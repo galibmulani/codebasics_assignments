@@ -1,46 +1,6 @@
 
 # Scenario Planing tool:
 
-STAR
-situation:
-mr.haryali's
-sales manager in atliq
-problem with taking a lot of time
-to approval customer discount
-by fact checking
-
-task
-so we converted this business problem into solution into scenario planing tool.
-
-
-requirements:
-switching parameters:
-average Net invoice price Avg NIP
-buy 5 products 12,10,3,9,1
-average  12+10+3+9+1 = 35 /5 = 7
-discount in %
-COGS in %
-GM Target [achieve]
-
-Filters:
-Customer
-Products
-Date
-
-action:
-3 way scenario's:
-best
-realistic
-worst
-Metrics:
-sales unit = 10000
-net invoice sales = Avg NIP * sales unit
-post discount = net invoice sales * discount %
-Net sales = net invoice sales - post discount
-COGS = net sales * cogs
-gross margin = net sales - cogs
-vs targets = GM - GM Target
-
 
 # Excel Scenario Planning Tool
 

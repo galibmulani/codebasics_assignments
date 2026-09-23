@@ -213,6 +213,4 @@ In this case, the Bubble Chart combines three different project dimensions into 
 
 Aspiring Data Analyst
 
-GitHub: [Galib Mulani](https://github.com/galibmulani)
-
 LinkedIn: [Galib Mulani](https://www.linkedin.com/in/galib-mulani-5005aa184/)

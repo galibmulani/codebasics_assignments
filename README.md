@@ -15,4 +15,4 @@ These repo contains all solution to my assignment
 
 ## 📊 Real Time Business Application: Project Priority Matrix (Assignment 6)
 
-[View Assignment →](https://github.com/galibmulani/codebasics_assignments/tree/main/assignment%203)
+[View Assignment →](https://github.com/galibmulani/codebasics_assignments/tree/main/assignment%206)

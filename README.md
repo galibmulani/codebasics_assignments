@@ -12,3 +12,7 @@ These repo contains all solution to my assignment
 ## 🏨 Codebasics Resume Project Challenge — Hospitality Analytics (Assignment 5)
 
 [View Assignment →](https://github.com/galibmulani/codebasics_assignments/tree/main/assignment%205)
+
+## 📊 Real Time Application: Project Priority Matrix (Assignment 6)
+
+[View Assignment →](https://github.com/galibmulani/codebasics_assignments/tree/main/assignment%203)

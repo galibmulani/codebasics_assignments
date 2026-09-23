@@ -13,6 +13,6 @@ These repo contains all solution to my assignment
 
 [View Assignment →](https://github.com/galibmulani/codebasics_assignments/tree/main/assignment%205)
 
-## 📊 Real Time Application: Project Priority Matrix (Assignment 6)
+## 📊 Real Time Business Application: Project Priority Matrix (Assignment 6)
 
 [View Assignment →](https://github.com/galibmulani/codebasics_assignments/tree/main/assignment%203)

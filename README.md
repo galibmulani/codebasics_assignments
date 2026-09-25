@@ -16,3 +16,8 @@ These repo contains all solution to my assignment
 ## 📊 Real Time Business Application: Project Priority Matrix (Assignment 6)
 
 [View Assignment →](https://github.com/galibmulani/codebasics_assignments/tree/main/assignment%206)
+
+
+## 📊 Real Time Business Application: Scenario Planning Tool (Assignment 7)
+
+[View Assignment →](https://github.com/galibmulani/codebasics_assignments/tree/main/assignment%207)

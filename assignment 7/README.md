@@ -1,12 +1,8 @@
-
-# Scenario Planing tool:
-
-
-# Excel Scenario Planning Tool
+# Business Application: Scenario Planing tool:
 
 ## Project Overview
 
-This project focuses on building an interactive **Scenario Planning Tool in Microsoft Excel** to help a Sales Manager evaluate the impact of different customer discount and COGS assumptions on sales and profitability.
+This project focuses on building an interactive **Scenario Planning Tool in Microsoft Excel** to help a Sales Manager evaluate the impact of different customer discount, COGS and Average Net Invoice Price (Avg NIP) assumptions on sales and profitability.
 
 The objective is to make the discount approval process faster by allowing the Sales Manager to compare **Best Case, Realistic Case, and Worst Case** scenarios before making a decision.
 
@@ -47,7 +43,7 @@ This creates a business trade-off:
 
 > **Higher COGS → Lower Gross Margin**
 
-The Scenario Planning Tool helps the Sales Manager evaluate these effects before approving a discount.
+The Scenario Planning Tool helps the Sales Manager evaluate these effects before approving a discount or COGS (freight cost + manufacturing cost + transportation cost).
 
 ---
 

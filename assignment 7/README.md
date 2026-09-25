@@ -1,4 +1,4 @@
-# Business Application: Scenario Planing tool:
+# Business Application: Scenario Planning tool:
 
 ## Project Overview
 
